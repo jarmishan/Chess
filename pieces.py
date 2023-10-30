@@ -1,6 +1,5 @@
 from spritesheet import Spritesheet
 
-
 class Peice:
     def __init__(self, colour, position, image_num, directions, value):
         self.colour_num = 0 if colour == "white" else 1
